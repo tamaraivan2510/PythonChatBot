@@ -1,0 +1,32 @@
+{
+    "intents": [
+        {"tag": "greetings", 
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "How are you doing?", "What can I do for you?"]
+},
+{"tag": "goodbye",
+"patterns": ["See you around", "See you later", "Good bye", "I am leaving", "Have a good day", "bye", "caio", "see ya"],
+"responses": ["Goodbye!", "See you later!", "Take care!", "Have a great day!", "Bye! Come back soon!"] },
+{"tag": "age",
+"patterns": ["how old", "how old are you?", "how old is your owner?", "how old is your maker?", "what is your age?", "age?"],
+"responses": ["My owner is 21 years old!", "21 years old!",  "My maker is 21 years old!", "I am 21 years old!"]
+},
+{"tag": "name",
+"patterns": ["What is your name", "what should I call you", "what's your name?", "who are you?", "Can you tell me your name?"],
+"responses": ["You can call me Seth",  "My name is Seth", "I am Seth", "I am an AI assistant named Seth", "I'm Seth, assistant to Tamara!"]
+},
+{"tag": "shop",
+"patterns": ["Id like to buy something", "What are your products?", "What do you recommend?", "What are you selling?" ],
+"responses": ["I can help you with that!", "I have a variety of products to offer"]
+},
+{
+    "tag": "hours",
+    "patterns": ["When are you guys open", "What are your hours",  "When are you open", "What time do you open", "What time do you close"],
+    "responses": ["24/7"]
+},
+{
+    "tag": "stocks",
+    "patterns":  ["What are the stock prices", "What are the stock prices today", "What companies am I investing in?", "how are my shares?"],
+    "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"]
+}
+    ]}
